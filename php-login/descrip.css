@@ -1,0 +1,144 @@
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    color: black;
+    text-shadow: 0 0 15px rgb(250, 255, 187), 0 0 35px rgb(247, 255, 136), 0 0 65px rgb(244, 255, 87) ;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 45px;
+
+}
+.peli{
+    height:550px;
+    margin: 50px;
+    width:1350px;
+    border-radius: 50px;
+
+    background-color: gray;
+}
+.poster{
+    position: absolute;
+    height: 410px;
+    width: 300px;
+    margin:50px;
+    top: 635px;
+    left: 100px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+}
+.titulo h1{
+    position: relative;
+    margin:50px;
+    right: 150px;
+    text-align: right;
+}
+
+.texto{
+    box-shadow: 0 0 15px rgb(255, 255, 255), 0 0 35px rgb(255, 255, 255), 0 0 65px rgb(255, 255, 255) ;
+    width: 500px;
+    height: 435PX;
+    padding: 20px;
+    line-height: 2em;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 670px;
+    font-size: 18px;
+    left: 800px;
+    border-radius: 10px;
+    color:rgba(41, 41, 41, 0.548);
+}
+.colo{
+    color: rgb(138, 138, 138);
+}
+.map{
+    position: absolute;
+    top:2055px;
+    left: 37px;
+}
+.contact{
+    position: relative;
+    left:80px;
+    top: 50px;
+}
+#cseccion{
+    position: relative;
+    top: 50px;
+
+  }
+#cseccion hr{
+background-color: gray;
+    position: relative;
+    top:40px
+  }
+  .map{
+    position: absolute;
+    top:156px;
+    left: 37px;
+  }
+#cseccion h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.box p{
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgb(252, 252, 252);
+}
+.box a{
+    text-decoration: none;
+    color: rgb(255, 255, 107);
+    text-shadow: 0 0 40px rgb(255, 255, 255), 0 0 70px rgb(255, 255, 255), 0 0 100px rgb(255, 255, 255) ;
+    background-color: black;
+    position: absolute;
+    padding: 10PX;
+    left: 35%;
+}
+.box a:hover{
+    text-decoration: none;
+    color: rgb(255, 177, 125);
+    text-shadow: 0 0 40px rgb(255, 248, 181), 0 0 70px rgb(255, 242, 121), 0 0 100px rgb(255, 240, 105) ;
+    background-color: black;
+    position: absolute;
+    padding: 10PX;
+    left: 35%;
+}
+.box .hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 15, 15);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+}
+.hover h1{
+    font-family: 'Roboto Condensed';
+    color: rgb(214, 169, 110);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.box:hover .hover{
+    width: 0%;
+}

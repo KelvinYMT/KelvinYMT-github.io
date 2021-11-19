@@ -1,0 +1,116 @@
+#index {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    height: 1500px;
+}
+#index h1{
+color: white;
+margin: 0px;
+padding-top: 7px;
+}
+.let{
+  color: white;
+  background: linear-gradient(rgba(131, 131, 131, 0.35),rgba(124, 124, 124, 0.45)), url(https://st.depositphotos.com/1605581/2446/i/600/depositphotos_24468941-stock-photo-abstract-blue-background.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  left: 32%;
+  top: 10%;
+  width: 550px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 60px;
+}
+.let a{
+  font-size: 20px ;
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: rgb(40, 191, 218);
+  border-radius: 5px;
+}
+.let a:hover{
+  background-color: white;
+  color: rgb(40, 191, 218);
+}
+.mesage{
+  padding: 3%;
+  position: relative;
+
+  margin:20px;
+}
+.imgrese{
+  height: 250px;
+  margin: 20px;
+  width: 230px;
+}
+.spac{
+  width: 65%;
+}
+.selectpeli{
+  height: 1800px;
+}
+tr{
+
+  border-left:transparent ;
+  border-bottom: rgb(0, 0, 0) 5px solid;
+}
+table{
+  border-collapse: collapse;
+}
+td h1{
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  font-family: 'Oswald', sans-serif;
+}
+.letra{
+  background-color: black;
+  width: 600px;
+
+}
+td h1:hover{
+  color: rgb(190, 190, 190);
+  text-shadow: 0 0 15px rgb(255, 245, 212), 0 0 35px rgb(255, 227, 137), 0 0 65px rgb(255, 217, 91) ;
+  transform: scale(1.2);
+}
+.ok{
+
+  position: relative;
+  top: 30%;
+  height: 120px;
+  width: 11
+  0px;
+  opacity: 0%;
+}
+.efect:hover .ok{
+  opacity: 100%;
+}
+.va{
+  height: 250px;
+  background-color: rgb(161, 161, 161);
+  margin: 20px;
+}
+#cseccion{
+  position: relative;
+  top: 600px;
+}
+#cseccion hr{
+  background-color: gray;
+  position: relative;
+  top:2300px
+}
+.map{
+  position: absolute;
+  top:140px;
+  left: 37px;
+}
+
+.tut a{
+  background-color: black;
+}
+.tut a:hover{
+  color: black;
+  background-color: rgb(255, 255, 255);
+}

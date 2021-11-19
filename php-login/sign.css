@@ -1,0 +1,28 @@
+#sign {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    background-color: white;
+    position: absolute;
+    left:460px;
+    margin: 30px;
+    width: 530px;
+  }
+#sign h1{
+  padding: 30px;
+  
+}
+#cseccion{
+  position: relative;
+  top: 600px;
+}
+#cseccion hr{
+  background-color: gray;
+  position: relative;
+  top:2300px
+}
+.map{
+  position: absolute;
+  top:156px;
+  left: 37px;
+}
